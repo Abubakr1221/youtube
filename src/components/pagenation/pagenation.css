@@ -1,0 +1,224 @@
+.pagenation {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.pagenation__img {
+  width: 1300px;
+  height: 700px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.pagenation-card__block {
+  padding-top: 20px;
+}
+
+.pagenation-card-block__numbers {
+  display: flex;
+  align-items: center;
+}
+
+.pagenation__hr {
+  width: 1300px;
+  height: 1px;
+  background: rgba(216, 216, 216, 0.5);
+}
+
+.like__block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 800px;
+}
+
+.pagenation-card-block-numbers__month {
+  color: #c2c2c2;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.pagenation-card-block-numbers__like {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  opacity: 0.6;
+  background: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.pagenation-card-block-numbers-like__text {
+  color: #192646;
+  font-family: sans-serif;
+}
+
+.pagenation-card-block__text {
+  color: #192646;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pagenation-card__more {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.pagenation-card__Subscribe {
+  margin-top: 59px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pagenation-card-subscribe__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagenation-card-subscribe-first__text {
+  color: #19202c;
+  font-family: sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pagenation-card-subscribe-footer__block {
+  padding-left: 91px;
+}
+
+.pagenation-card-subscribe-footer-first__text {
+  width: 820px;
+  color: #000;
+  font-family: sans-serif;
+  opacity: 0.6;
+  margin: 0;
+}
+
+.pagenation-card-subscribe-last__text {
+  color: #c2c2c2;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+.pagenation-card-subscribe-block__text {
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.pagenation-card-subscribe__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 154px;
+  height: 40px;
+  border-radius: 20px;
+  background: #f00;
+  margin-left: 865px;
+  cursor: pointer;
+}
+
+.pagenation-card-subscribe-second__text {
+  display: none;
+}
+.pagenation-card-subscribe-block-second__text {
+  display: none;
+}
+
+.pagenation-card-subscribe-footer-last__text {
+  color: #c2c2c2;
+  font-family: sans-serif;
+}
+
+@media (max-width: 400px) {
+  .pagenation {
+    padding-top: 0;
+    padding-left: 40px;
+  }
+  .pagenation-card-block__numbers {
+    display: flex;
+    flex-direction: column;
+  }
+  .pagenation-card__block {
+    padding-top: 13px;
+  }
+  .pagenation-card__Subscribe {
+    padding: 0;
+  }
+  .pagenation-card-subscribe__block {
+    margin: 0;
+    background-color: unset;
+  }
+  .pagenation-card-subscribe-last__text {
+    display: none;
+  }
+  .pagenation-card-subscribe-second__text {
+    display: block;
+    color: #c2c2c2;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 0;
+  }
+  .pagenation-card-subscribe-block__text {
+    color: #f00;
+  }
+  .pagenation__img {
+    width: 320px;
+    height: 180px;
+  }
+  .pagenation-card-block__text {
+    font-size: 20px;
+  }
+  .pagenation-card-block-numbers__month {
+    font-size: 12px;
+    display: flex;
+    padding-right: 300px;
+  }
+  .like__block {
+    padding: 0;
+    margin-right: 40px;
+  }
+  .pagenation-card__more {
+    display: none;
+  }
+  .pagenation__hr {
+    margin-top: 40px;
+    width: 315px;
+  }
+  .pagenation-card__Subscribe {
+    margin-top: 20px;
+  }
+  .pagenation-card-Subscribe__img {
+    width: 50px;
+    height: 50px;
+  }
+  .pagenation-card-subscribe-first__text {
+    font-size: 16px;
+  }
+  .pagenation-card-subscribe-footer-first__text {
+    display: none;
+  }
+  .pagenation-card-subscribe-footer-last__text {
+    display: none;
+  }
+  .pagenation-card-subscribe-block__text {
+    display: none;
+  }
+  .pagenation-card-subscribe-block-second__text {
+    display: block;
+    color: #f00;
+    text-align: center;
+    font-family: sans-serif;
+    padding-left: 70px;
+  }
+}

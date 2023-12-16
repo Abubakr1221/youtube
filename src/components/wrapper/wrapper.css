@@ -1,0 +1,241 @@
+.wrapper__card {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  padding-top: 100px;
+}
+
+.text {
+  width: 200px;
+  font-family: sans-serif;
+}
+
+.wrapper-card__sidebar {
+  width: 15%;
+  font-family: sans-serif;
+  position: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 11px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.wrapper-card-sidebar__items {
+  width: 100%;
+  height: 630px;
+  overflow: auto;
+}
+
+.wrapper-card-sidebar-items__list {
+  padding-bottom: 60px;
+}
+
+.wrapper-card__items {
+  list-style: none;
+}
+
+.wrapper-card-items__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.wrapper-card-items-first__text {
+  font-family: sans-serif;
+  color: red;
+}
+
+.wrapper-card-items-last__text {
+  font-family: sans-serif;
+  color: #898989;
+}
+
+.wrapper-card-sidebar-items-secons__list {
+  padding-bottom: 58px;
+}
+
+.wrapper-card-second__items {
+  list-style: none;
+}
+
+.wrapper-card-items-second__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.wrapper-card-items-second__text {
+  font-family: sans-serif;
+  color: #898989;
+}
+
+.Subscriptions {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+
+.wrapper-card-Subscriptions__list {
+  padding-left: 30px;
+  padding-bottom: 104px;
+}
+
+.wrapper-card-subscriptions__items {
+  list-style: none;
+}
+
+.wrapper-card-subscriptions__link {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+}
+
+.wrapper-card-subscriptions__text {
+  color: #898989;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.wrapper-card-setting__items {
+  list-style: none;
+}
+
+.wrapper-card-setting__link {
+  text-decoration: none;
+  display: flex;
+  gap: 12px;
+}
+
+.wrapper-card-setting__text {
+  color: #c2c2c2;
+  font-family: sans-serif;
+}
+
+.wrapper-card__video {
+  width: 1220px;
+  height: 630px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-left: 300px;
+  padding-right: 12px;
+  overflow-x: auto;
+}
+
+.wrapper-card-video__play {
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wrapper-card-video-play__img {
+  border-radius: 14px;
+}
+
+.wrapper-card-video__title {
+  color: #19202c;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.wrapper-card-video__block {
+  display: flex;
+}
+
+.wrapper-card-vodeo__text {
+  color: #c2c2c2;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+.wrapper-card-home-last__img {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 400px;
+  }
+  .wrapper__card {
+    padding: 0;
+  }
+  .wrapper-card__video {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    flex-direction: column;
+    padding-left: 60px;
+  }
+  .wrapper-card-video__play {
+    padding-bottom: 30px;
+  }
+  .wrapper-card-Subscriptions__list {
+    display: none;
+  }
+  .Subscriptions {
+    display: none;
+  }
+  .wrapper-card-setting__list {
+    display: none;
+  }
+  .wrapper-card-sidebar-items-secons__list {
+    display: none;
+  }
+  .wrapper-card-sidebar-items__list {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px 0;
+    bottom: 0;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .wrapper-card-items__link {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+  }
+  .wrapper-card-home-first__img {
+    display: none;
+  }
+  .wrapper-card-home-last__img {
+    display: block;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: unset;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: unset;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: unset;
+  }
+}
